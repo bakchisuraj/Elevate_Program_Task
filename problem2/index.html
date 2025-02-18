@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Notes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='script.js'></script>
+</head>
+<body>
+    <h1 style="text-align: center;"> Add note</h1>
+    <div style="display: flex; margin: auto; padding: 50px;">
+        <form id="form">
+            <input  id="title" text placeholder="enter title">
+            <br>
+            <input id="notes" type="text" placeholder="enter notes " style="height: 40px;">
+            <br>
+            <label for="category">select category</label>
+            <select name="category" id="category">
+                <option value="work">work</option>
+                <option value="personal">personal</option>
+                <option value="misc">misc</option>
+            </select>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+        <div id="note container">
+
+        </div>
+    </div>
+</body>
+</html>
